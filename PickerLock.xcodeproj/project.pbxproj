@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0306DE1D31861200900985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0306DD1D31861200900985 /* AppDelegate.swift */; };
+		EB0306E01D31861200900985 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB0306DF1D31861200900985 /* GameScene.sks */; };
+		EB0306E21D31861200900985 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0306E11D31861200900985 /* GameScene.swift */; };
+		EB0306E41D31861200900985 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0306E31D31861200900985 /* GameViewController.swift */; };
+		EB0306E71D31861200900985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0306E51D31861200900985 /* Main.storyboard */; };
+		EB0306E91D31861200900985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0306E81D31861200900985 /* Assets.xcassets */; };
+		EB0306EC1D31861200900985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0306EA1D31861200900985 /* LaunchScreen.storyboard */; };
+		EB0306F71D31861300900985 /* PickerLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0306F61D31861300900985 /* PickerLockTests.swift */; };
+		EB0307021D31861300900985 /* PickerLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0307011D31861300900985 /* PickerLockUITests.swift */; };
+		EB0307101D3192A900900985 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB03070F1D3192A900900985 /* CGFloatExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB0306F31D31861300900985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB0306D21D31861200900985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB0306D91D31861200900985;
+			remoteInfo = PickerLock;
+		};
+		EB0306FE1D31861300900985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB0306D21D31861200900985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB0306D91D31861200900985;
+			remoteInfo = PickerLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB0306DA1D31861200900985 /* PickerLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0306DD1D31861200900985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB0306DF1D31861200900985 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EB0306E11D31861200900985 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EB0306E31D31861200900985 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EB0306E61D31861200900985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB0306E81D31861200900985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB0306EB1D31861200900985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB0306ED1D31861200900985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0306F21D31861300900985 /* PickerLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0306F61D31861300900985 /* PickerLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerLockTests.swift; sourceTree = "<group>"; };
+		EB0306F81D31861300900985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0306FD1D31861300900985 /* PickerLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0307011D31861300900985 /* PickerLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerLockUITests.swift; sourceTree = "<group>"; };
+		EB0307031D31861300900985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB03070F1D3192A900900985 /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB0306D71D31861200900985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0306EF1D31861300900985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0306FA1D31861300900985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0306D11D31861200900985 = {
+			isa = PBXGroup;
+			children = (
+				EB0306DC1D31861200900985 /* PickerLock */,
+				EB0306F51D31861300900985 /* PickerLockTests */,
+				EB0307001D31861300900985 /* PickerLockUITests */,
+				EB0306DB1D31861200900985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB0306DB1D31861200900985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB0306DA1D31861200900985 /* PickerLock.app */,
+				EB0306F21D31861300900985 /* PickerLockTests.xctest */,
+				EB0306FD1D31861300900985 /* PickerLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0306DC1D31861200900985 /* PickerLock */ = {
+			isa = PBXGroup;
+			children = (
+				EB0306DD1D31861200900985 /* AppDelegate.swift */,
+				EB0306DF1D31861200900985 /* GameScene.sks */,
+				EB0306E11D31861200900985 /* GameScene.swift */,
+				EB03070F1D3192A900900985 /* CGFloatExtension.swift */,
+				EB0306E31D31861200900985 /* GameViewController.swift */,
+				EB0306E51D31861200900985 /* Main.storyboard */,
+				EB0306E81D31861200900985 /* Assets.xcassets */,
+				EB0306EA1D31861200900985 /* LaunchScreen.storyboard */,
+				EB0306ED1D31861200900985 /* Info.plist */,
+			);
+			path = PickerLock;
+			sourceTree = "<group>";
+		};
+		EB0306F51D31861300900985 /* PickerLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB0306F61D31861300900985 /* PickerLockTests.swift */,
+				EB0306F81D31861300900985 /* Info.plist */,
+			);
+			path = PickerLockTests;
+			sourceTree = "<group>";
+		};
+		EB0307001D31861300900985 /* PickerLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB0307011D31861300900985 /* PickerLockUITests.swift */,
+				EB0307031D31861300900985 /* Info.plist */,
+			);
+			path = PickerLockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB0306D91D31861200900985 /* PickerLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0307061D31861300900985 /* Build configuration list for PBXNativeTarget "PickerLock" */;
+			buildPhases = (
+				EB0306D61D31861200900985 /* Sources */,
+				EB0306D71D31861200900985 /* Frameworks */,
+				EB0306D81D31861200900985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerLock;
+			productName = PickerLock;
+			productReference = EB0306DA1D31861200900985 /* PickerLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB0306F11D31861300900985 /* PickerLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0307091D31861300900985 /* Build configuration list for PBXNativeTarget "PickerLockTests" */;
+			buildPhases = (
+				EB0306EE1D31861300900985 /* Sources */,
+				EB0306EF1D31861300900985 /* Frameworks */,
+				EB0306F01D31861300900985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0306F41D31861300900985 /* PBXTargetDependency */,
+			);
+			name = PickerLockTests;
+			productName = PickerLockTests;
+			productReference = EB0306F21D31861300900985 /* PickerLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB0306FC1D31861300900985 /* PickerLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB03070C1D31861300900985 /* Build configuration list for PBXNativeTarget "PickerLockUITests" */;
+			buildPhases = (
+				EB0306F91D31861300900985 /* Sources */,
+				EB0306FA1D31861300900985 /* Frameworks */,
+				EB0306FB1D31861300900985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0306FF1D31861300900985 /* PBXTargetDependency */,
+			);
+			name = PickerLockUITests;
+			productName = PickerLockUITests;
+			productReference = EB0306FD1D31861300900985 /* PickerLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB0306D21D31861200900985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Turk;
+				TargetAttributes = {
+					EB0306D91D31861200900985 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EB0306F11D31861300900985 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EB0306D91D31861200900985;
+					};
+					EB0306FC1D31861300900985 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EB0306D91D31861200900985;
+					};
+				};
+			};
+			buildConfigurationList = EB0306D51D31861200900985 /* Build configuration list for PBXProject "PickerLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB0306D11D31861200900985;
+			productRefGroup = EB0306DB1D31861200900985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB0306D91D31861200900985 /* PickerLock */,
+				EB0306F11D31861300900985 /* PickerLockTests */,
+				EB0306FC1D31861300900985 /* PickerLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB0306D81D31861200900985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0306E01D31861200900985 /* GameScene.sks in Resources */,
+				EB0306EC1D31861200900985 /* LaunchScreen.storyboard in Resources */,
+				EB0306E91D31861200900985 /* Assets.xcassets in Resources */,
+				EB0306E71D31861200900985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0306F01D31861300900985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0306FB1D31861300900985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB0306D61D31861200900985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0306E21D31861200900985 /* GameScene.swift in Sources */,
+				EB0306E41D31861200900985 /* GameViewController.swift in Sources */,
+				EB0307101D3192A900900985 /* CGFloatExtension.swift in Sources */,
+				EB0306DE1D31861200900985 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0306EE1D31861300900985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0306F71D31861300900985 /* PickerLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0306F91D31861300900985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0307021D31861300900985 /* PickerLockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB0306F41D31861300900985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB0306D91D31861200900985 /* PickerLock */;
+			targetProxy = EB0306F31D31861300900985 /* PBXContainerItemProxy */;
+		};
+		EB0306FF1D31861300900985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB0306D91D31861200900985 /* PickerLock */;
+			targetProxy = EB0306FE1D31861300900985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB0306E51D31861200900985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0306E61D31861200900985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB0306EA1D31861200900985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0306EB1D31861200900985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB0307041D31861300900985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB0307051D31861300900985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB0307071D31861300900985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Turk.PickerLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB0307081D31861300900985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Turk.PickerLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB03070A1D31861300900985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PickerLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Turk.PickerLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerLock.app/PickerLock";
+			};
+			name = Debug;
+		};
+		EB03070B1D31861300900985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PickerLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Turk.PickerLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerLock.app/PickerLock";
+			};
+			name = Release;
+		};
+		EB03070D1D31861300900985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PickerLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Turk.PickerLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PickerLock;
+			};
+			name = Debug;
+		};
+		EB03070E1D31861300900985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PickerLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Turk.PickerLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PickerLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB0306D51D31861200900985 /* Build configuration list for PBXProject "PickerLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0307041D31861300900985 /* Debug */,
+				EB0307051D31861300900985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0307061D31861300900985 /* Build configuration list for PBXNativeTarget "PickerLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0307071D31861300900985 /* Debug */,
+				EB0307081D31861300900985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB0307091D31861300900985 /* Build configuration list for PBXNativeTarget "PickerLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB03070A1D31861300900985 /* Debug */,
+				EB03070B1D31861300900985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB03070C1D31861300900985 /* Build configuration list for PBXNativeTarget "PickerLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB03070D1D31861300900985 /* Debug */,
+				EB03070E1D31861300900985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB0306D21D31861200900985 /* Project object */;
+}
